@@ -508,3 +508,6 @@ input:focus, textarea:focus{
   .grid--3, .problems-grid{ grid-template-columns: 1fr; }
   .callout{ flex-direction:column; align-items:flex-start; }
 }
+#problemas {
+  display: none;
+}
