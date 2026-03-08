@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>O que monitorar primeiro em um ambiente pequeno</title>
+
+<meta name="description" content="Guia prático sobre o que monitorar primeiro em ambientes pequenos: disponibilidade, disco, CPU, memória e backup." />
+
+<link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+<link rel="stylesheet" href="../../styles.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+<nav class="nav container">
+
+<a class="brand" href="../../index.html">
+<img class="brand__logo" src="../../logo-nebula.svg">
+<span class="brand__text">nebula</span>
+</a>
+
+<div class="nav__links">
+<a href="../../index.html">Site principal</a>
+<a href="../index.html">Lab</a>
+</div>
+
+</nav>
+</header>
+
+<main class="section">
+
+<div class="container article-layout">
+
+<article class="article-panel">
+
+<div class="breadcrumb">
+<a href="../index.html">Lab</a> /
+Monitoramento
+</div>
+
+<h1>O que monitorar primeiro em um ambiente pequeno</h1>
+
+<p class="lead">
+Ambientes pequenos precisam de monitoramento simples e eficiente. O objetivo não é ter dezenas de dashboards, mas descobrir problemas antes que eles interrompam a operação.
+</p>
+
+<h2>Disponibilidade do sistema</h2>
+
+<p>
+O primeiro item a monitorar é simples: saber se o sistema está online.
+Se um servidor ou serviço parar, alguém precisa ser avisado imediatamente.
+</p>
+
+<h2>Espaço em disco</h2>
+
+<p>
+Disco cheio é uma das causas mais comuns de falhas. Monitorar armazenamento evita que bancos de dados, backups ou aplicações parem inesperadamente.
+</p>
+
+<pre><code>
+alerta se disco > 85%
+crítico se disco > 95%
+</code></pre>
+
+<h2>Uso de CPU e memória</h2>
+
+<p>
+Monitorar CPU e RAM ajuda a identificar sistemas sobrecarregados ou processos problemáticos.
+</p>
+
+<h2>Status do backup</h2>
+
+<p>
+Backup precisa ser monitorado. Não basta configurar — é necessário garantir que ele executa corretamente.
+</p>
+
+<pre><code>
+backup falhou
+backup não executado nas últimas 24h
+</code></pre>
+
+<h2>Alertas importantes</h2>
+
+<ul class="article-bullets">
+<li>servidor offline</li>
+<li>disco cheio</li>
+<li>backup falhou</li>
+<li>uso extremo de CPU</li>
+</ul>
+
+<h2>Conclusão</h2>
+
+<p>
+Monitoramento eficiente começa simples. Alguns indicadores essenciais já reduzem muito o risco operacional.
+</p>
+
+</article>
+
+<aside class="panel">
+
+<h3>Precisa implementar isso?</h3>
+
+<p class="muted">
+Monitoramento bem configurado evita surpresas e reduz tempo de resposta a falhas.
+</p>
+
+<p>
+<a class="btn btn--ghost" href="../../index.html#contato">
+Falar comigo
+</a>
+</p>
+
+</aside>
+
+</div>
+
+</main>
+
+</body>
+</html>
