@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="nebulaBg" x1="16" y1="12" x2="110" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B2A86"/>
+      <stop offset="1" stop-color="#1E1F3D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(94 30) rotate(128) scale(40 40)">
+      <stop stop-color="#FFE87D" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFE87D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#nebulaBg)"/>
+  <circle cx="92" cy="32" r="30" fill="url(#glow)"/>
+  <circle cx="94" cy="28" r="6" fill="#FFE87D"/>
+  <path d="M34 90V38h12l30 34V38h12v52H76L46 56v34H34Z" fill="#FFFFFF"/>
+</svg>
