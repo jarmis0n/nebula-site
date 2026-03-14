@@ -395,23 +395,59 @@ h3{ font-size: 16px; letter-spacing:-.01em; }
 
 .contact-grid{
   display:grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 24px;
+  align-items:start;
 }
+
 .contact-card{
   background: rgba(35,36,74,.70);
   border:1px solid rgba(155,138,202,.14);
   border-radius: var(--radius);
   padding: 16px;
+  height: 100%;
 }
-.contact-actions{ display:grid; gap:10px; margin-top: 12px; }
+
+.contact-actions{
+  display:grid;
+  gap:10px;
+  margin-top: 12px;
+}
+
+.contact-link{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:12px 14px;
+  border-radius:14px;
+  background: rgba(155,138,202,.10);
+  border:1px solid rgba(155,138,202,.25);
+  transition:background .15s ease;
+}
+
+.contact-link:hover{
+  background: rgba(155,138,202,.18);
+}
+
+.contact-link img{
+  width:30px;
+  height:30px;
+}
 
 .form{
   background: rgba(35,36,74,.70);
   border:1px solid rgba(155,138,202,.14);
   border-radius: var(--radius);
   padding: 16px;
+  margin-top: 0;
 }
+
+@media (max-width: 900px){
+  .contact-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
 label{ display:grid; gap:6px; margin-bottom: 12px; }
 label span{ color: rgba(255,255,255,.85); font-weight:650; font-size: 13px; }
 input, textarea{
@@ -551,3 +587,4 @@ input:focus, textarea:focus{
 .post-card__actions{
   margin-top:12px;
 }
+

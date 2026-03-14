@@ -1,444 +1,448 @@
-<!doctype html>
-<html lang="pt-PT">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jarmison Nascimento — Infraestrutura e Segurança em TI</title>
-  <meta name="description" content="Infraestrutura e Segurança em TI para pequenas empresas e profissionais: redes, servidores, backup, proteção de dados, monitoramento e configuração segura. Atendimento local e remoto." />
-  <meta name="robots" content="index,follow" />
-  <meta name="author" content="Jarmison Nascimento" />
-  <meta name="theme-color" content="#1E1F3D" />
-  <meta name="keywords" content="infraestrutura TI, segurança TI, servidores, redes, firewall, backup, monitoramento, suporte técnico, pequenas empresas, Portugal" />
-  <link rel="canonical" href="https://jarmis0n.github.io/nebula-site/" />
+  <!doctype html>
+  <html lang="pt-PT">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jarmison Nascimento — Infraestrutura e Segurança em TI</title>
+    <meta name="description" content="Infraestrutura e Segurança em TI para pequenas empresas e profissionais: redes, servidores, backup, proteção de dados, monitoramento e configuração segura. Atendimento local e remoto." />
+    <meta name="robots" content="index,follow" />
+    <meta name="author" content="Jarmison Nascimento" />
+    <meta name="theme-color" content="#1E1F3D" />
+    <meta name="keywords" content="infraestrutura TI, segurança TI, servidores, redes, firewall, backup, monitoramento, suporte técnico, pequenas empresas, Portugal" />
+    <link rel="canonical" href="https://jarmis0n.github.io/nebula-site/" />
 
-  <meta property="og:locale" content="pt_PT" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Jarmison Nascimento — Infraestrutura e Segurança em TI" />
-  <meta property="og:description" content="Soluções seguras e eficientes para pequenas empresas e profissionais. Atendimento local e remoto." />
-  <meta property="og:url" content="https://jarmis0n.github.io/nebula-site/" />
-  <meta property="og:site_name" content="Nebula" />
-  <meta property="og:image" content="https://jarmis0n.github.io/nebula-site/og-image.png" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jarmison Nascimento — Infraestrutura e Segurança em TI" />
+    <meta property="og:description" content="Soluções seguras e eficientes para pequenas empresas e profissionais. Atendimento local e remoto." />
+    <meta property="og:url" content="https://jarmis0n.github.io/nebula-site/" />
+    <meta property="og:site_name" content="Nebula" />
+    <meta property="og:image" content="https://jarmis0n.github.io/nebula-site/og-image.png" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Jarmison Nascimento — Infraestrutura e Segurança em TI" />
-  <meta name="twitter:description" content="Soluções seguras e eficientes para pequenas empresas e profissionais." />
-  <meta name="twitter:image" content="https://jarmis0n.github.io/nebula-site/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jarmison Nascimento — Infraestrutura e Segurança em TI" />
+    <meta name="twitter:description" content="Soluções seguras e eficientes para pequenas empresas e profissionais." />
+    <meta name="twitter:image" content="https://jarmis0n.github.io/nebula-site/og-image.png" />
 
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="icons/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Jarmison Nascimento - Infraestrutura e Segurança em TI",
-    "description": "Serviços de infraestrutura e segurança em TI para pequenas empresas e profissionais.",
-    "email": "jarmison@nebula.dev.br",
-    "telephone": "+351912844780",
-    "url": "https://jarmis0n.github.io/nebula-site/",
-    "areaServed": "Portugal",
-    "sameAs": [
-      "https://www.linkedin.com/in/jarmison-dawenedys/"
-    ]
-  }
-  </script>
-</head>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Jarmison Nascimento - Infraestrutura e Segurança em TI",
+      "description": "Serviços de infraestrutura e segurança em TI para pequenas empresas e profissionais.",
+      "email": "jarmison@nebula.dev.br",
+      "telephone": "+351912844780",
+      "url": "https://jarmis0n.github.io/nebula-site/",
+      "areaServed": "Portugal",
+      "sameAs": [
+        "https://www.linkedin.com/in/jarmison-dawenedys/"
+      ]
+    }
+    </script>
+  </head>
 
-<body>
-  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <body>
+    <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
 
-  <header class="site-header">
-    <nav class="nav container" aria-label="Navegação principal">
-      <a class="brand" href="#inicio" aria-label="Nebula - início">
-        <img class="brand__logo" src="logo-nebula.svg" alt="" aria-hidden="true" />
-        <span class="brand__text">nebula</span>
-      </a>
-
-      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" type="button">
-        <span class="nav__toggle-lines" aria-hidden="true"></span>
-      </button>
-
-      <div class="nav__links" data-nav-links>
-        <a href="#servicos">Serviços</a>
-        <a href="#como-funciona">Como funciona</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
-        <a href="lab/">Lab</a>
-        <a class="btn btn--small btn--primary" href="https://wa.me/351912844780" target="_blank" rel="noopener">
-          WhatsApp
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="brand" href="#inicio" aria-label="Nebula - início">
+          <img class="brand__logo" src="icons/logo-nebula.svg" alt="" aria-hidden="true" />
+          <span class="brand__text">nebula</span>
         </a>
-      </div>
-    </nav>
-  </header>
 
-  <main id="conteudo">
-    <section id="inicio" class="hero">
-      <div class="container hero__grid">
-        <div class="hero__content">
-          <p class="kicker">Infraestrutura e Segurança em TI</p>
-          <h1>Ambientes estáveis, seguros e sob controle.</h1>
-          <p class="lead">
-            Eu ajudo pequenas empresas e profissionais a reduzir riscos, evitar prejuízos e manter a operação funcionando, com configuração segura de rede, servidores e proteção de dados.
-          </p>
+        <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" type="button">
+          <span class="nav__toggle-lines" aria-hidden="true"></span>
+        </button>
 
-          <div class="hero__cta">
-            <a class="btn btn--primary" href="https://wa.me/351912844780" target="_blank" rel="noopener">
-              Falar no WhatsApp
-            </a>
-            <a class="btn btn--ghost" href="#contato">
-              Pedir orçamento
-            </a>
-          </div>
-
-          <ul class="badges" aria-label="Destaques">
-            <li>Atendimento local e remoto</li>
-            <li>Foco em segurança e continuidade</li>
-            <li>Clareza, documentação e boas práticas</li>
-          </ul>
+        <div class="nav__links" data-nav-links>
+          <a href="#servicos">Serviços</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+          <a href="lab/">Lab</a>
+          <a class="btn btn--small btn--primary" href="https://wa.me/351912844780" target="_blank" rel="noopener">
+            WhatsApp
+          </a>
         </div>
+      </nav>
+    </header>
 
-        <div class="hero__card" aria-label="Resumo rápido">
-          <div class="card">
-            <div class="card__top">
-              <h2 class="card__title">Jarmison Nascimento</h2>
-              <p class="card__subtitle">Infraestrutura e Segurança em TI</p>
-            </div>
+    <main id="conteudo">
+      <section id="inicio" class="hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="kicker">Infraestrutura e Segurança em TI</p>
+            <h1>Ambientes estáveis, seguros e sob controle.</h1>
+            <p class="lead">
+              Eu ajudo pequenas empresas e profissionais a reduzir riscos, evitar prejuízos e manter a operação funcionando, com configuração segura de rede, servidores e proteção de dados.
+            </p>
 
-            <div class="card__body">
-              <div class="mini-list">
-                <p><strong>Especialidades</strong></p>
-                <ul>
-                  <li>Servidores (Linux/Windows)</li>
-                  <li>Redes, firewall e segmentação</li>
-                  <li>Backup e recuperação</li>
-                  <li>Monitoramento e otimização</li>
-                </ul>
-              </div>
-
-              <div class="contact-mini">
-                <a href="mailto:jarmison@nebula.dev.br">jarmison@nebula.dev.br</a>
-                <a href="https://wa.me/351912844780" target="_blank" rel="noopener">+351 912 844 780</a>
-                <a href="https://www.linkedin.com/in/jarmison-dawenedys/" target="_blank" rel="noopener">LinkedIn</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="glow" aria-hidden="true"></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="servicos" class="section">
-      <div class="container">
-        <div class="section__head">
-          <h2>Serviços</h2>
-          <p>
-            Tudo aqui é pensado para reduzir interrupções desnecessárias, seja por falhas ou por ataques, e também para que você tenha controle da própria rede.
-          </p>
-        </div>
-
-        <div class="grid grid--3">
-          <article class="feature">
-            <h3>Servidores e virtualização</h3>
-            <p>Instalação, organização e manutenção de servidores, VMs e serviços essenciais, com foco em estabilidade.</p>
-            <ul class="feature__bullets">
-              <li>Provisionamento e configuração</li>
-              <li>Atualizações e manutenção segura</li>
-              <li>Melhorias de performance</li>
-            </ul>
-          </article>
-
-          <article class="feature">
-            <h3>Redes seguras e firewall</h3>
-            <p>Segmentação, regras bem feitas, documentadas e controles de acesso para reduzir risco e tráfego indesejado na rede.</p>
-            <ul class="feature__bullets">
-              <li>Firewall e políticas de acesso</li>
-              <li>VPN e acesso remoto</li>
-              <li>Wi-Fi e redes separadas</li>
-            </ul>
-          </article>
-
-          <article class="feature">
-            <h3>Backup e proteção de dados</h3>
-            <p>Backup real com testes, retenção e recuperação.</p>
-            <ul class="feature__bullets">
-              <li>Estratégia 3-2-1</li>
-              <li>Rotinas automatizadas</li>
-              <li>Testes de restauração</li>
-            </ul>
-          </article>
-
-          <article class="feature">
-            <h3>Monitoramento e alertas</h3>
-            <p>Visibilidade do ambiente: disponibilidade, recursos, logs e alertas antes da eventualidade acontecer.</p>
-            <ul class="feature__bullets">
-              <li>Dashboards e métricas</li>
-              <li>Alertas por evento</li>
-              <li>Relatórios simples e úteis</li>
-            </ul>
-          </article>
-
-          <article class="feature">
-            <h3>Segurança prática</h3>
-            <p>Configuração segura, redução de superfície de ataque e higiene operacional.</p>
-            <ul class="feature__bullets">
-              <li>Configuração segura de sistemas</li>
-              <li>Gestão de atualizações</li>
-              <li>Boas práticas e documentação</li>
-            </ul>
-          </article>
-
-          <article class="feature">
-            <h3>Suporte pontual</h3>
-            <p>Precisa resolver algo específico? Eu entro, corrijo e deixo o ambiente mais estável do que estava antes.</p>
-            <ul class="feature__bullets">
-              <li>Diagnóstico e correção</li>
-              <li>Melhorias objetivas</li>
-              <li>Entrega com checklist</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="como-funciona" class="section">
-      <div class="container">
-        <div class="section__head">
-          <h2>Como funciona</h2>
-          <p>Processo curto, transparente e objetivo.</p>
-        </div>
-
-        <div class="steps">
-          <div class="step">
-            <div class="step__num">1</div>
-            <div class="step__content">
-              <h3>Diagnóstico</h3>
-              <p>Entendo a tua realidade, risco, dores e prioridades.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step__num">2</div>
-            <div class="step__content">
-              <h3>Plano de ação</h3>
-              <p>Proposta clara com o que vai ser feito, custo, prazo e impacto. O objetivo é previsibilidade.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step__num">3</div>
-            <div class="step__content">
-              <h3>Execução e documentação</h3>
-              <p>Implemento com boas práticas, valido e documento. Você fica com o ambiente, com o mapa e com independência.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="step__num">4</div>
-            <div class="step__content">
-              <h3>Acompanhamento</h3>
-              <p>Opcional: manutenção preventiva e melhorias contínuas. Menos sustos e mais controle.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="callout">
-          <p><strong>Objetivo:</strong> reduzir riscos, evitar prejuízos e manter o ambiente operacional de forma estável e sob controle.</p>
-          <a class="btn btn--primary" href="https://wa.me/351912844780" target="_blank" rel="noopener">Falar agora</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="sobre" class="section section--alt">
-      <div class="container about">
-        <div class="about__text">
-          <h2>Sobre</h2>
-      <p>
-        Eu sou o <strong>Jarmison Dawenedys do Nascimento</strong>, especialista em infraestrutura e segurança em TI. 
-        Sou formado em Redes de Computadores e trabalho com administração de redes, servidores e 
-        serviços de tecnologia que mantêm empresas funcionando de forma estável e segura.
-      </p>
-      <p>
-        Ao longo da minha experiência, atuei na administração de redes de telecomunicações, 
-        servidores Linux e Windows e na implementação de diversos serviços de rede e infraestrutura. 
-        Esse trabalho envolve desde configurar sistemas e redes até diagnosticar e resolver problemas 
-        que podem afetar a operação de uma empresa.
-      </p>
-      <p>
-        Gosto especialmente da parte prática da tecnologia: entender como os sistemas funcionam, 
-        identificar onde estão os gargalos e encontrar soluções eficientes para que tudo opere 
-        de forma confiável.
-      </p>
-      <p>
-        Também valorizo muito o trabalho colaborativo. Grande parte dos problemas em tecnologia 
-        não se resolve sozinho, eles exigem comunicação clara, cooperação e um esforço conjunto 
-        para chegar à melhor solução.
-      </p>
-      <p>
-        Hoje meu foco é ajudar pequenas empresas, escritórios e profissionais que precisam de 
-        uma infraestrutura de TI estável, segura e bem organizada, sem complexidade desnecessária.
-      </p>
-
-          <div class="about__links">
-            <a class="btn btn--ghost" href="https://www.linkedin.com/in/jarmison-dawenedys/" target="_blank" rel="noopener">
-              Ver LinkedIn
-            </a>
-            <a class="btn btn--ghost" href="mailto:jarmison@nebula.dev.br">
-              Enviar email
-            </a>
-          </div>
-        </div>
-
-        <div class="about__panel">
-          <div class="panel">
-            <h3>Áreas que eu atendo</h3>
-            <ul class="checklist">
-              <li>Pequenas empresas sem TI interno</li>
-              <li>Escritórios e negócios locais</li>
-              <li>Profissionais que dependem de sistemas</li>
-              <li>Infraestruturas em crescimento</li>
-            </ul>
-
-            <h3 class="mt">Atendimento</h3>
-            <ul class="meta">
-              <li><span>Modalidade:</span> local e remoto</li>
-              <li><span>Contato:</span> WhatsApp e email</li>
-              <li><span>Idioma:</span> PT</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contato" class="section">
-      <div class="container">
-        <div class="section__head">
-          <h2>Contato</h2>
-          <p>Me diz o que você precisa e eu te devolvo um plano claro. Sem teatro.</p>
-        </div>
-
-        <div class="contact-grid">
-          <div class="contact-card">
-            <h3>Fale direto</h3>
-            <p class="muted">Resposta mais rápida pelo WhatsApp.</p>
-
-            <div class="contact-actions">
+            <div class="hero__cta">
               <a class="btn btn--primary" href="https://wa.me/351912844780" target="_blank" rel="noopener">
-                WhatsApp: +351 912 844 780
+                Falar no WhatsApp
+              </a>
+              <a class="btn btn--ghost" href="#contato">
+                Pedir orçamento
+              </a>
+            </div>
+
+            <ul class="badges" aria-label="Destaques">
+              <li>Atendimento local e remoto</li>
+              <li>Foco em segurança e continuidade</li>
+              <li>Clareza, documentação e boas práticas</li>
+            </ul>
+          </div>
+
+          <div class="hero__card" aria-label="Resumo rápido">
+            <div class="card">
+              <div class="card__top">
+                <h2 class="card__title">Jarmison Nascimento</h2>
+                <p class="card__subtitle">Infraestrutura e Segurança em TI</p>
+              </div>
+
+              <div class="card__body">
+                <div class="mini-list">
+                  <p><strong>Especialidades</strong></p>
+                  <ul>
+                    <li>Servidores (Linux/Windows)</li>
+                    <li>Monitoramento e otimização</li>
+                    <li>Redes, firewall e segmentação</li>
+                    <li>Backup e recuperação</li>
+                  </ul>
+                </div>
+
+                <div class="contact-mini">
+                  <a href="mailto:jarmison@nebula.dev.br">jarmison@nebula.dev.br</a>
+                  <a href="https://wa.me/351912844780" target="_blank" rel="noopener">+351 912 844 780</a>
+                  <a href="https://www.linkedin.com/in/jarmison-dawenedys/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="glow" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Serviços</h2>
+            <p>
+              Tudo aqui é pensado para reduzir interrupções desnecessárias, seja por falhas ou por ataques, e também para que você tenha controle da própria rede.
+            </p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="feature">
+              <h3>Servidores e virtualização</h3>
+              <p>Instalação, organização e manutenção de servidores, VMs e serviços essenciais, com foco em estabilidade.</p>
+              <ul class="feature__bullets">
+                <li>Provisionamento e configuração</li>
+                <li>Atualizações e manutenção segura</li>
+                <li>Melhorias de performance</li>
+              </ul>
+            </article>
+
+            <article class="feature">
+              <h3>Monitoramento e alertas</h3>
+              <p>Visibilidade do ambiente: disponibilidade, recursos, logs e alertas antes da eventualidade acontecer.</p>
+              <ul class="feature__bullets">
+                <li>Dashboards e métricas</li>
+                <li>Alertas por evento</li>
+                <li>Relatórios simples e úteis</li>
+              </ul>
+            </article>
+
+            <article class="feature">
+              <h3>Redes seguras e firewall</h3>
+              <p>Segmentação, regras bem feitas, documentadas e controles de acesso para reduzir risco e tráfego indesejado na rede.</p>
+              <ul class="feature__bullets">
+                <li>Firewall e políticas de acesso</li>
+                <li>VPN e acesso remoto</li>
+                <li>Wi-Fi e redes separadas</li>
+              </ul>
+            </article>
+
+            <article class="feature">
+              <h3>Backup e proteção de dados</h3>
+              <p>Backup real com testes, retenção e recuperação.</p>
+              <ul class="feature__bullets">
+                <li>Estratégia 3-2-1</li>
+                <li>Rotinas automatizadas</li>
+                <li>Testes de restauração</li>
+              </ul>
+            </article>
+
+            <article class="feature">
+              <h3>Segurança prática</h3>
+              <p>Configuração segura, redução de superfície de ataque e higiene operacional.</p>
+              <ul class="feature__bullets">
+                <li>Configuração segura de sistemas</li>
+                <li>Gestão de atualizações</li>
+                <li>Boas práticas e documentação</li>
+              </ul>
+            </article>
+
+            <article class="feature">
+              <h3>Suporte pontual</h3>
+              <p>Precisa resolver algo específico? Eu entro, corrijo e deixo o ambiente mais estável do que estava antes.</p>
+              <ul class="feature__bullets">
+                <li>Diagnóstico e correção</li>
+                <li>Melhorias objetivas</li>
+                <li>Entrega com checklist</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="como-funciona" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Como funciona</h2>
+            <p>Processo curto, transparente e objetivo.</p>
+          </div>
+
+          <div class="steps">
+            <div class="step">
+              <div class="step__num">1</div>
+              <div class="step__content">
+                <h3>Diagnóstico</h3>
+                <p>Entendo a tua realidade, risco, dores e prioridades.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step__num">2</div>
+              <div class="step__content">
+                <h3>Plano de ação</h3>
+                <p>Proposta clara com o que vai ser feito, custo, prazo e impacto. O objetivo é previsibilidade.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step__num">3</div>
+              <div class="step__content">
+                <h3>Execução e documentação</h3>
+                <p>Implemento com boas práticas, valido e documento. Você fica com o ambiente, com o mapa e com independência.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step__num">4</div>
+              <div class="step__content">
+                <h3>Acompanhamento</h3>
+                <p>Opcional: manutenção preventiva e melhorias contínuas. Menos sustos e mais controle.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="callout">
+            <p><strong>Objetivo:</strong> reduzir riscos, evitar prejuízos e manter o ambiente operacional de forma estável e sob controle.</p>
+            <a class="btn btn--primary" href="https://wa.me/351912844780" target="_blank" rel="noopener">Falar agora</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section section--alt">
+        <div class="container about">
+          <div class="about__text">
+            <h2>Sobre</h2>
+        <p>
+          Eu sou o <strong>Jarmison Dawenedys do Nascimento</strong>, especialista em infraestrutura e segurança em TI. 
+          Sou formado em Redes de Computadores e trabalho com administração de redes, servidores e 
+          serviços de tecnologia que mantêm empresas funcionando de forma estável e segura.
+        </p>
+        <p>
+          Ao longo da minha experiência, atuei na administração de redes de telecomunicações, 
+          servidores Linux e Windows e na implementação de diversos serviços de rede e infraestrutura. 
+          Esse trabalho envolve desde configurar sistemas e redes até diagnosticar e resolver problemas 
+          que podem afetar a operação de uma empresa.
+        </p>
+        <p>
+          Gosto especialmente da parte prática da tecnologia: entender como os sistemas funcionam, 
+          identificar onde estão os gargalos e encontrar soluções eficientes para que tudo opere 
+          de forma confiável.
+        </p>
+        <p>
+          Também valorizo muito o trabalho colaborativo. Grande parte dos problemas em tecnologia 
+          não se resolve sozinho, eles exigem comunicação clara, cooperação e um esforço conjunto 
+          para chegar à melhor solução.
+        </p>
+        <p>
+          Hoje meu foco é ajudar pequenas empresas, escritórios e profissionais que precisam de 
+          uma infraestrutura de TI estável, segura e bem organizada, sem complexidade desnecessária.
+        </p>
+
+            <div class="about__links">
+              <a class="btn btn--ghost" href="https://www.linkedin.com/in/jarmison-dawenedys/" target="_blank" rel="noopener">
+                Ver LinkedIn
               </a>
               <a class="btn btn--ghost" href="mailto:jarmison@nebula.dev.br">
-                Email: jarmison@nebula.dev.br
+                Enviar email
               </a>
             </div>
-
-            <p class="muted small">
-              LinkedIn:
-              <a href="https://www.linkedin.com/in/jarmison-dawenedys/" target="_blank" rel="noopener">
-                linkedin.com/in/jarmison-dawenedys
-              </a>
-            </p>
           </div>
 
-          <form class="form" id="contact-form" action="https://formspree.io/f/mjgakaqd" method="POST">
-            <h3>Pedir orçamento</h3>
-            <p class="muted">Preencha os dados e envie. Eu recebo diretamente no meu email.</p>
+          <div class="about__panel">
+            <div class="panel">
+              <h3>Áreas que eu atendo</h3>
+              <ul class="checklist">
+                <li>Pequenas empresas sem TI interno</li>
+                <li>Escritórios e negócios locais</li>
+                <li>Profissionais que dependem de sistemas</li>
+                <li>Infraestruturas em crescimento</li>
+              </ul>
 
-            <label>
-              <span>Nome</span>
-              <input name="nome" type="text" autocomplete="name" placeholder="Seu nome" required />
-            </label>
-
-            <label>
-              <span>Email</span>
-              <input name="email" type="email" autocomplete="email" placeholder="seuemail@empresa.com" required />
-            </label>
-
-            <label>
-              <span>Telefone / WhatsApp</span>
-              <input name="telefone" type="text" autocomplete="tel" placeholder="+351 ..." />
-            </label>
-
-            <label>
-              <span>Mensagem</span>
-              <textarea name="mensagem" rows="5" placeholder="Descreva o que você precisa." required></textarea>
-            </label>
-
-            <input type="hidden" name="_subject" value="Novo pedido de orçamento pelo site Nebula" />
-            <input type="text" name="_gotcha" class="hidden-field" tabindex="-1" autocomplete="off" />
-
-            <button class="btn btn--primary" type="submit">Enviar</button>
-
-            <p id="form-status" class="muted small" aria-live="polite"></p>
-
-            <p class="muted small">
-              Se preferir, mande a mensagem pelo WhatsApp — costuma ser mais rápido.
-            </p>
-          </form>
+              <h3 class="mt">Atendimento</h3>
+              <ul class="meta">
+                <li><span>Modalidade:</span> local e remoto</li>
+                <li><span>Contato:</span> WhatsApp e email</li>
+                <li><span>Idioma:</span> PT</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <a class="whatsapp-float" href="https://wa.me/351912844780" target="_blank">
-    <img src="whatsapp-icon.png" alt="WhatsApp">
-  </a>
+      <section id="contato" class="section">
+    <div class="container">
 
-  <footer class="footer">
-    <div class="container footer__grid">
-      <div>
-        <p class="footer__brand"><strong>nebula</strong> · Infraestrutura e Segurança em TI</p>
-        <p class="muted small">© <span id="year"></span> Jarmison Nascimento. Todos os direitos reservados.</p>
+      <div class="section__head">
+        <h2>Contato</h2>
+        <p>Me diz o que você precisa e eu te devolvo um plano claro. Sem teatro.</p>
       </div>
 
-      <div class="footer__links">
-        <a href="#servicos">Serviços</a>
-        <a href="#problemas">Problemas</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
-        <a href="lab/">Lab</a>
-        <a href="https://www.linkedin.com/in/jarmison-dawenedys/" target="_blank" rel="noopener">LinkedIn</a>
+      <div class="contact-grid">
+
+        <div class="contact-card">
+          <h3>Fale direto</h3>
+          <p class="muted">Resposta mais rápida pelo WhatsApp.</p>
+
+          <div class="contact-actions">
+            <a class="contact-link" href="https://wa.me/351912844780" target="_blank">
+              <img src="icons/icons8-whatsapp-64.png" alt="">
+              <span>WhatsApp</span>
+            </a>
+
+            <a class="contact-link" href="mailto:jarmison@nebula.dev.br">
+              <img src="icons/icons8-email-50.png" alt="">
+              <span>Email</span>
+            </a>
+
+            <a class="contact-link" href="https://www.linkedin.com/in/jarmison-dawenedys/" target="_blank">
+              <img src="icons/icons8-linkedin-50.png" alt="">
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="form" id="contact-form" action="https://formspree.io/f/mjgakaqd" method="POST">
+          <h3>Pedir orçamento</h3>
+          <p class="muted">Preencha os dados e envie. Eu recebo diretamente no meu email.</p>
+
+          <label>
+            <span>Nome</span>
+            <input name="nome" type="text" autocomplete="name" placeholder="Seu nome" required />
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email" placeholder="seuemail@empresa.com" required />
+          </label>
+
+          <label>
+            <span>Telefone / WhatsApp</span>
+            <input name="telefone" type="text" autocomplete="tel" placeholder="+351 ..." />
+          </label>
+
+          <label>
+            <span>Mensagem</span>
+            <textarea name="mensagem" rows="5" placeholder="Descreva o que você precisa." required></textarea>
+          </label>
+
+          <input type="hidden" name="_subject" value="Novo pedido de orçamento pelo site Nebula" />
+          <input type="text" name="_gotcha" class="hidden-field" tabindex="-1" autocomplete="off" />
+
+          <button class="btn btn--primary" type="submit">Enviar</button>
+
+          <p id="form-status" class="muted small" aria-live="polite"></p>
+
+          <p class="muted small">
+            Se preferir, mande a mensagem pelo WhatsApp, costuma ser mais rápido.
+          </p>
+        </form>
+
       </div>
     </div>
-  </footer>
+  </section>
+    </main>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    <a class="whatsapp-float" href="https://wa.me/351912844780" target="_blank">
+      <img src="icons/whatsapp-icon.png" alt="WhatsApp">
+    </a>
 
-    const toggle = document.querySelector('.nav__toggle');
-    const links = document.querySelector('[data-nav-links]');
-    toggle?.addEventListener('click', () => {
-      const open = links.classList.toggle('is-open');
-      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div>
+          <p class="footer__brand"><strong>nebula</strong> · Infraestrutura e Segurança em TI</p>
+          <p class="muted small">© <span id="year"></span> Jarmison Nascimento. Todos os direitos reservados.</p>
+        </div>
 
-    const form = document.getElementById('contact-form');
-    const statusEl = document.getElementById('form-status');
+        <div class="footer__links">
+          <a href="#servicos">Serviços</a>
+          <a href="#problemas">Problemas</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+          <a href="lab/">Lab</a>
+          <a href="https://www.linkedin.com/in/jarmison-dawenedys/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
 
-    form?.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      statusEl.textContent = 'Enviando...';
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
 
-      const data = new FormData(form);
+      const toggle = document.querySelector('.nav__toggle');
+      const links = document.querySelector('[data-nav-links]');
+      toggle?.addEventListener('click', () => {
+        const open = links.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
 
-      try {
-        const response = await fetch(form.action, {
-          method: 'POST',
-          body: data,
-          headers: {
-            'Accept': 'application/json'
+      const form = document.getElementById('contact-form');
+      const statusEl = document.getElementById('form-status');
+
+      form?.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        statusEl.textContent = 'Enviando...';
+
+        const data = new FormData(form);
+
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: data,
+            headers: {
+              'Accept': 'application/json'
+            }
+          });
+
+          if (response.ok) {
+            form.reset();
+            statusEl.textContent = 'Mensagem enviada com sucesso. Vou responder em breve.';
+          } else {
+            statusEl.textContent = 'Erro ao enviar. Tente novamente ou use WhatsApp.';
           }
-        });
-
-        if (response.ok) {
-          form.reset();
-          statusEl.textContent = 'Mensagem enviada com sucesso. Vou responder em breve.';
-        } else {
-          statusEl.textContent = 'Erro ao enviar. Tente novamente ou use WhatsApp.';
+        } catch (error) {
+          statusEl.textContent = 'Falha de conexão. Use WhatsApp ou email.';
         }
-      } catch (error) {
-        statusEl.textContent = 'Falha de conexão. Use WhatsApp ou email.';
-      }
-    });
-  </script>
-</body>
-</html>
+      });
+    </script>
+  </body>
+  </html>
